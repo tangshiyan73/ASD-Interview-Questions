@@ -1,5 +1,5 @@
 // Merge sort: split array in half recursively, then merge two sorted halves.
-
+// No built-in sort used.
 function mergeSort(arr) {
   if (arr.length <= 1) return arr; // base case: a single element (or empty) is already sorted
 
